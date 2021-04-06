@@ -17,7 +17,8 @@ class Database:
         self.db.commit()
 
     def insertcourse(self, data: dict):
-        self.cur.execute(f"INSERT INTO courses (name, points) VALUES ('{data['name']}', '{data['points']}')")
+        dat = (data['name'], data['points'])
+        self.cur.execute("INSERT INTO courses (name, points) VALUES (?, ?)", dat)
         self.db.commit()
 
     def getcourses(self):
