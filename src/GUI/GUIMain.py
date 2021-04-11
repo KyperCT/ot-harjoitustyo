@@ -13,5 +13,10 @@ class GUI(Frame):
         mainframe.grid()
 
 
-GUI(root).grid()
-root.mainloop()
+def start():
+    GUI(root).grid()
+    root.mainloop()
+
+
+if __name__ == "__main__":
+    start()

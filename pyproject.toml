@@ -6,6 +6,7 @@ authors = ["Mirko von Bell <mirko.vonbell@helsinki.fi>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+invoke = "^1.5.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.2"
