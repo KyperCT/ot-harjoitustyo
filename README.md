@@ -1,3 +1,5 @@
+# Kurssi-ilmottautuminen peruttu, arvioiminen ei tarpeen
+
 # OT harjoitustyö
 ---
 Tämä repo on *ohjelmistotekniikan* **harjoitustyötä** varten luotu.
